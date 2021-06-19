@@ -13,7 +13,7 @@
           <img src="img/cardiologiap.jpg" alt="Cardio" id="car">
             <div class="carousel-caption">
               <h3>Cardiología</h3>
-              <!--prueba commit-->
+              <!--prueba commit 2-->
               <div class="linea-division"></div>
               <p>Estudios recientes sobre el cuidado del corazón</p>
             </div>   

@@ -163,6 +163,75 @@
         height: 100px;
     }
 
+    .login{
+        width: 350px;
+        text-align: center;
+        background-color:#bbdff5;
+        margin: auto;
+
+    }
+
+    #td{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: darkmagenta;
+    }
+
+    #sing,#registro_nuevo{
+        text-align: left;
+        margin: auto;
+    }
+
+    #tdregistro{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: darkblue;
+        font-size: 20px;
+        padding: 5px;
+        text-align: right;
+    }
+    /*Estilo Tabla del Usuario Anonimo*/
+
+    #tabla{
+    width: 100%;
+
+    }
+    #thV{
+        height: 50px;
+        text-align: center;
+        background-color: #b1c6d3;
+    }
+    #tdV{
+        height: 30px;
+        padding-left: 15px;
+        text-align: center;
+        vertical-align: bottom;
+    }
+
+    #thV,#tdV{
+        border-bottom: 2px solid rgb(131,127,127);
+        text-align: center;
+    }
+
+    #trV:hover{
+        background-color: #d2f0f0;
+    }
+
+    #btnVer{
+        padding: 3px;
+        background-color:thistle;
+        border-color:#b1c6d3;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #btnVer:hover{
+            background-color:plum;
+            color: darkblue;           
+        }
+
+
+
+
+
+
     </style>
 
 <script type="text/javascript">
@@ -207,18 +276,18 @@ $(document).ready(function () {
                         <img src="img/decadas.png" alt="Decadas" width="80px" height="70px">
                         </a>
                         <div class="dropdown-menu" id="menD">
-                            <a class="dropdown-item" href="#">1901-1910</a>
-                            <a class="dropdown-item" href="#">1911-1920</a>
-                            <a class="dropdown-item" href="#">1921-1930</a>
-                            <a class="dropdown-item" href="#">1931-1940</a>
-                            <a class="dropdown-item" href="#">1941-1950</a>
-                            <a class="dropdown-item" href="#">1951-1960</a>
-                            <a class="dropdown-item" href="#">1961-1970</a>
-                            <a class="dropdown-item" href="#">1971-1980</a>
-                            <a class="dropdown-item" href="#">1981-1990</a>
-                            <a class="dropdown-item" href="#">1991-2000</a>
-                            <a class="dropdown-item" href="#">2001-2010</a>
-                            <a class="dropdown-item" href="#">2011-2020</a>
+                            <a class="dropdown-item" href="seleccionArticuloD.php">1901-1910</a>
+                            <a class="dropdown-item" href="seleccionArticuloD.php">1911-1920</a>
+                            <a class="dropdown-item" href="seleccionArticuloD.php">1921-1930</a>
+                            <a class="dropdown-item" href="seleccionArticuloD.php">1931-1940</a>
+                            <a class="dropdown-item" href="seleccionArticuloD.php">1941-1950</a>
+                            <a class="dropdown-item" href="seleccionArticuloD.php">1951-1960</a>
+                            <a class="dropdown-item" href="seleccionArticuloD.php">1961-1970</a>
+                            <a class="dropdown-item" href="seleccionArticuloD.php">1971-1980</a>
+                            <a class="dropdown-item" href="seleccionArticuloD.php">1981-1990</a>
+                            <a class="dropdown-item" href="seleccionArticuloD.php">1991-2000</a>
+                            <a class="dropdown-item" href="seleccionArticuloD.php">2001-2010</a>
+                            <a class="dropdown-item" href="seleccionArticuloD.php">2011-2020</a>
                         </div>
                     </button>
 
@@ -242,12 +311,12 @@ $(document).ready(function () {
                         </a>  
                     </button>
                     <button class="nav-item" id="btn5">
-                        <a href="" >
+                        <a href="iniciar_sesion.php" >
                             <img src="img/i_sesion.png" alt="Iniciar Sesión" width="100px" height="70px">
                         </a>  
                     </button>
                     <button class="nav-item" id="btn6">
-                        <a href="" >
+                        <a href="registrarse.php" >
                             <img src="img/registrarse.png" alt="Registrarse" width="80px" height="70px">
                         </a>  
                     </button>
@@ -255,7 +324,6 @@ $(document).ready(function () {
                 
             </div>    
         </nav>
-
        
         
 

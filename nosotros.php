@@ -2,6 +2,36 @@
 <br>
 <h2><b>Equipo 4</b></h2>
 
+<br>
+ <div class="row">
+     <div class="col-1">
+       <h4 style="text-align:right">Materia:</h4>  
+     </div>
+     <div class="col-6">
+       <h4><input type="text" class="form-control" readonly value="Programacion Web"></h4>  
+     </div>
+ </div>
+
+ <div class="row">
+     <div class="col-1">
+       <h4 style="text-align:right">Carrera:</h4>  
+     </div>
+     <div class="col-6">
+       <h4><input type="text" class="form-control" readonly value="Ingeniería en Sistemas Computacionales"></h4>  
+     </div>
+ </div>
+
+ <div class="row">
+     <div class="col-1">
+       <h4 style="text-align:right">Semestre:</h4>  
+     </div>
+     <div class="col-6">
+       <h4><input type="text" class="form-control" readonly value="Enero-Julio 2021"></h4>  
+     </div>
+ </div>
+
+<br>
+
 <div class="row" id="nosPad">
     <div class="col-6">
         <table>

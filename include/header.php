@@ -276,18 +276,88 @@ $(document).ready(function () {
                         <img src="img/decadas.png" alt="Decadas" width="80px" height="70px">
                         </a>
                         <div class="dropdown-menu" id="menD">
-                            <a class="dropdown-item" href="seleccionArticuloD.php">1901-1910</a>
-                            <a class="dropdown-item" href="seleccionArticuloD.php">1911-1920</a>
-                            <a class="dropdown-item" href="seleccionArticuloD.php">1921-1930</a>
-                            <a class="dropdown-item" href="seleccionArticuloD.php">1931-1940</a>
-                            <a class="dropdown-item" href="seleccionArticuloD.php">1941-1950</a>
-                            <a class="dropdown-item" href="seleccionArticuloD.php">1951-1960</a>
-                            <a class="dropdown-item" href="seleccionArticuloD.php">1961-1970</a>
-                            <a class="dropdown-item" href="seleccionArticuloD.php">1971-1980</a>
-                            <a class="dropdown-item" href="seleccionArticuloD.php">1981-1990</a>
-                            <a class="dropdown-item" href="seleccionArticuloD.php">1991-2000</a>
-                            <a class="dropdown-item" href="seleccionArticuloD.php">2001-2010</a>
-                            <a class="dropdown-item" href="seleccionArticuloD.php">2011-2020</a>
+                            <a class="dropdown-item" href="seleccionArticuloD.php">
+                            <form method="post" action="seleccionArticuloD.php">
+                            <input type="hidden" name="cat" value="1901-1910">
+                            <input type="submit" value="1901-1910">
+                            </form>
+                            </a>
+
+                            <a class="dropdown-item" href="seleccionArticuloD.php">
+                            <form method="post" action="seleccionArticuloD.php">
+                            <input type="hidden" name="cat" value="1911-1920">
+                            <input type="submit" value="1911-1920">
+                            </form>
+                            </a>
+
+                            <a class="dropdown-item" href="seleccionArticuloD.php">
+                            <form method="post" action="seleccionArticuloD.php">
+                            <input type="hidden" name="cat" value="1921-1930">
+                            <input type="submit" value="1921-1930">
+                            </form>
+                            </a>
+
+                            <a class="dropdown-item" href="seleccionArticuloD.php">
+                            <form method="post" action="seleccionArticuloD.php">
+                            <input type="hidden" name="cat" value="1931-1940">
+                            <input type="submit" value="1931-1940">
+                            </form>
+                            </a>
+
+                            <a class="dropdown-item" href="seleccionArticuloD.php">
+                            <form method="post" action="seleccionArticuloD.php">
+                            <input type="hidden" name="cat" value="1941-1950">
+                            <input type="submit" value="1941-1950">
+                            </form>
+                            </a>
+
+                            <a class="dropdown-item" href="seleccionArticuloD.php">
+                            <form method="post" action="seleccionArticuloD.php">
+                            <input type="hidden" name="cat" value="1951-1960">
+                            <input type="submit" value="1951-1960">
+                            </form>
+                            </a>
+
+                            <a class="dropdown-item" href="seleccionArticuloD.php">
+                            <form method="post" action="seleccionArticuloD.php">
+                            <input type="hidden" name="cat" value="1961-1970">
+                            <input type="submit" value="1961-1970">
+                            </form>
+                            </a>
+
+                            <a class="dropdown-item" href="seleccionArticuloD.php">
+                            <form method="post" action="seleccionArticuloD.php">
+                            <input type="hidden" name="cat" value="1971-1980">
+                            <input type="submit" value="1971-1980">
+                            </form>
+                            </a>
+                            
+                            <a class="dropdown-item" href="seleccionArticuloD.php">
+                            <form method="post" action="seleccionArticuloD.php">
+                            <input type="hidden" name="cat" value="1981-1990">
+                            <input type="submit" value="1981-1990">
+                            </form>
+                            </a>
+
+                            <a class="dropdown-item" href="seleccionArticuloD.php">
+                            <form method="post" action="seleccionArticuloD.php">
+                            <input type="hidden" name="cat" value="1991-2000">
+                            <input type="submit" value="1991-2000">
+                            </form>
+                            </a>
+
+                            <a class="dropdown-item" href="seleccionArticuloD.php">
+                            <form method="post" action="seleccionArticuloD.php">
+                            <input type="hidden" name="cat" value="2001-2010">
+                            <input type="submit" value="2001-2010">
+                            </form>
+                            </a>
+
+                            <a class="dropdown-item" href="seleccionArticuloD.php">
+                            <form method="post" action="seleccionArticuloD.php">
+                            <input type="hidden" name="cat" value="2011-2020">
+                            <input type="submit" value="2011-2020">
+                            </form></a>
                         </div>
                     </button>
 
@@ -297,11 +367,38 @@ $(document).ready(function () {
                       <img src="img/categ.png" alt="Categorias" width="80px" height="70px">
       				</a>
       				<div class="dropdown-menu" id="menC">
-        				<a class="dropdown-item" href="#">Cardiologia</a>
-        				<a class="dropdown-item" href="#">Geriatria</a>
-        				<a class="dropdown-item" href="#">Pediatria</a>
-        				<a class="dropdown-item" href="#">Odontologia</a>
-        				<a class="dropdown-item" href="#">Neurologia</a>
+        				<a class="dropdown-item" href="seleccionArticuloC.php">
+                        <form method="post" action="seleccionArticuloC.php">
+                            <input type="hidden" name="cat1" value="Cardiologia">
+                            <input type="submit" value="Cardiología">
+                            </form>
+                            </a>
+
+        				<a class="dropdown-item" href="seleccionArticuloC.php">
+                        <form method="post" action="seleccionArticuloC.php">
+                            <input type="hidden" name="cat1" value="Geriatria">
+                            <input type="submit" value="Geriatría">
+                            </form>
+                        </a>
+        				<a class="dropdown-item" href="seleccionArticuloC.php">
+                        <form method="post" action="seleccionArticuloC.php">
+                            <input type="hidden" name="cat1" value="Pediatria">
+                            <input type="submit" value="Pediatría">
+                            </form>
+                            </a>
+
+        				<a class="dropdown-item" href="seleccionArticuloC.php">
+                        <form method="post" action="seleccionArticuloC.php">
+                            <input type="hidden" name="cat1" value="Odontologia">
+                            <input type="submit" value="Odontología">
+                            </form>
+                            </a>
+        				<a class="dropdown-item" href="seleccionArticuloC.php">
+                        <form method="post" action="seleccionArticuloC.php">
+                            <input type="hidden" name="cat1" value="Neurologia">
+                            <input type="submit" value="Neurología">
+                            </form>
+                            </a>
       				</div>
                     </button>
 
@@ -324,8 +421,6 @@ $(document).ready(function () {
                 
             </div>    
         </nav>
-       
-        
 
 
         

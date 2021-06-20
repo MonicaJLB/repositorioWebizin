@@ -27,7 +27,12 @@
         else{
             mysqli_query($db,"SET NAME 'UTF8'");
         }
-        $sql="SELECT id_articulo,nombre,titulo,subcategoria from escritores inner join articulos on escritores.id_escritor=articulos.id_autor";
+        $dec=$_POST['cat'];
+        $sql="SELECT id_articulo,nombre,titulo,subcategoria 
+        from escritores 
+        inner join articulos 
+        on escritores.id_escritor=articulos.id_autor 
+        where subcategoria='$dec'";
         if(mysqli_query($db,$sql)){
             $datos=mysqli_query($db,$sql);
             while($f=mysqli_fetch_array($datos)){

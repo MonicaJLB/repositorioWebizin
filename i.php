@@ -16,7 +16,7 @@ if (isset($usuario)) {
 	
 	if ($password==$fila['pwd']){
  
-		$_SESSION['id']=$fila['id'];
+		$_SESSION['id_usuario']=$fila['id_usuario'];
 		$_SESSION['nombre']=$fila['nombre'];
 		$_SESSION['email']=$fila['email'];
 		$_SESSION['rol']=$fila['rol'];

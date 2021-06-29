@@ -1,4 +1,4 @@
-<?php include 'include/headerloged.php'; ?><br>
+<?php include 'include/headerloged.php'; ?>
 
 <head>
     
@@ -30,7 +30,9 @@
             <br>Fecha de nacimiento: <input type="date" name="fecha_nac" value=<?php echo $_SESSION['fecha_nac']?>>
             <br>
             <br>Preferencias de lectura: <input type="text" name="preferencias" value=<?php echo $_SESSION['preferencias']?>>
+            <br><input type="hidden" name="id_usuario" value="<?php echo $_SESSION['id_usuario']?>" >
             <br>
+            
             <br><button type="submit" class="btn btn-light">Actualizar</button>
         </form>
 

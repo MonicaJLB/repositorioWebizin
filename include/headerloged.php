@@ -1,3 +1,10 @@
+<?php
+
+// inicializar la sesion 
+session_start();
+
+$id=$_SESSION['id_usuario'];
+?>
 <!doctype html>
 <html lang="es">
   <head>
@@ -219,6 +226,21 @@ $(document).ready(function () {
                     <button class="nav-item" id="btn6">
                         <a href="" >
                             <img src="img/registrarse.png" alt="Registrarse" width="80px" height="70px">
+                        </a>  
+                    </button>
+
+                    <button class="nav-item" id="btn6">
+
+                    <a href="">
+                        <h1><?php
+                            echo $_SESSION['nombre'];
+                        ?></h1>
+                    </a>
+                    </button>
+
+                    <button class="nav-item" id="btn6">
+                        <a href="logout.php" >
+                            Cerrar sesión
                         </a>  
                     </button>
                 </ul>

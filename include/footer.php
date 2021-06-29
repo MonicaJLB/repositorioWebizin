@@ -8,9 +8,8 @@
        que contiene artículos relevantes en el área de medicina
        durante las últimas décadas.</h6>
       <!-- Rights-->
-      <h6 class="rights" style="text-align: center;"><span>©  </span><span class="copyright-year">2021</span><span>
-
-      </span><span>Equipo 4</span><span>. </span><span> ProgWeb</span></h6>
+      <h6 class="rights" style="text-align: center;"><span>©  </span><span class="copyright-year">2021</span><span>
+      </span><span>Equipo 4</span><span>. </span><span> ProgWeb</span></h6>
     </div>
     <div class="col-4">
       <br>
@@ -33,9 +32,5 @@
     </div>
   </div>
 </div>
-
-
-
-
 </body>
 </html>
